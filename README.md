@@ -67,7 +67,7 @@ Represents the building Elevator. It has fields to indicate its capacity (user s
  ```
 The function “getPassengersIn()” is in turn composed of multiple steps. As an example:
 ```java
-/**
+    /**
      * Performs full boarding sequence:
      * - board passenger.
      * - change passenger fields by calling its method "boardElevator".
@@ -145,7 +145,7 @@ A Floor object represents a “getFloor()” in a building. Each Floor object ha
 ```
 This is the randomization method that belongs to Floor and the Building calls for each floor:
 ```java
-	/**
+    /**
      * Randomizes the destination of the waiting residents in this floor.
      * It receives a Map with residents that want to board the elevator
      * and their destinations and calls the "waitForElevator" method
@@ -201,14 +201,14 @@ Make sure you have Maven and JDK 11 installed. Steps:
 - “mvn clean package”
 - “java -jar target/elevator-v1.jar <numPeople> <movingTime> <numFloors> <eCapacity> <simNum>”
 
-Required arguments ->
-numPeople: number of people to enter the building.
-movingTime: time to wait for elevator to move between floors in seconds.
-numFloors: number of floors in the building.
-eCapacity: elevator loading capacity.
-simNum: number of floors the elevator will travel.
+Required arguments ->  
+numPeople: number of people to enter the building.  
+movingTime: time to wait for elevator to move between floors in seconds.  
+numFloors: number of floors in the building.  
+eCapacity: elevator loading capacity.  
+simNum: number of floors the elevator will travel.  
 
 
 ## Output Example
 
-[[https://github.com/PyAntony/elevator/images/Screenshot.png]]
+[[https://github.com/PyAntony/elevator/blob/master/images/Screenshot.png]]
