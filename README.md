@@ -211,4 +211,4 @@ simNum: number of floors the elevator will travel.
 
 ## Output Example
 
-![Screenshot](images/screenshot2.png)
+![Screenshot](https://github.com/PyAntony/elevator/blob/master/images/Screenshot2.png)
