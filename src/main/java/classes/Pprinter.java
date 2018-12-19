@@ -2,18 +2,18 @@ package classes;
 
 
 /**
- * A PPrinter class prints the building state at
+ * A Pprinter class prints the building state at
  * the Elevator current floor after each move.
  */
-class PPrinter {
+class Pprinter {
 
     private Building building;
     private int time;
 
     /**
-     * Constructor for class PPrinter
+     * Constructor for class Pprinter
      */
-    PPrinter(Building building, int time){
+    Pprinter(Building building, int time){
 
         this.building = building;
         this.time = time;

@@ -4,7 +4,7 @@ import java.util.*;
 
 
 /**
- * A Building object represents a building. A building
+ * A Building object represents a Building. A building
  * has an Elevator objects as well as a number of FLOORS as defined
  * in a static int. A building knows the state of each Floor object as
  * well as it's Elevator.
@@ -40,7 +40,8 @@ class Building {
 
     /**
      * Randomizes the waiting queues in all floors if random number generated
-     * is greater than 0.5.
+     * is greater than 0.5. Residents in floors will be randomly assigned to
+     * waiting queues with random destination floors.
      * @param flag if "enforce" is passed the function guarantees randomization
      *             by passing 0.99 rather than a random number.
      */

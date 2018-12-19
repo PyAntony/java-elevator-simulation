@@ -31,17 +31,17 @@ public class Main {
         var simNum = Integer.parseInt(args[4]);
 
         Building building = new Building(numFloors, elevatorCapacity);
-        PPrinter pPrinter = new PPrinter(building, movingTime);
+        Pprinter Pprinter = new Pprinter(building, movingTime);
 
         enterBuilding(building, numPeople);
 
         building.randomizeQueues("enforce");
         building.getElevator().getPassengersIn();
-        pPrinter.displayEntireFloor("start");
+        Pprinter.displayEntireFloor("start");
 
         for (int i = 0; i <= simNum; i++) {
             building.getElevator().move();
-            pPrinter.displayEntireFloor("standard");
+            Pprinter.displayEntireFloor("standard");
             building.randomizeQueues("standard");
         }
     }

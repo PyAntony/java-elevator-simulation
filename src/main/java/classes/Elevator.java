@@ -121,7 +121,7 @@ public class Elevator {
     }
 
     /**
-     * Release passenger. Steps:
+     * Release a passenger. Steps:
      * - Mark passenger arrival.
      * - Enter current floor as a resident.
      * - Removes passenger from elevator list.
