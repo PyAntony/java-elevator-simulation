@@ -211,4 +211,4 @@ simNum: number of floors the elevator will travel.
 
 ## Output Example
 
-![Screenshot](screenshot2.png)
+![Screenshot](images/screenshot2.png)
