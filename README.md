@@ -199,7 +199,7 @@ Make sure you have Maven and JDK 11 installed. Steps:
 - clone repository.
 - “cd elevator”
 - “mvn clean package”
-- “java -jar target/elevator-v1.jar <numPeople> <movingTime> <numFloors> <eCapacity> <simNum>”
+- “java -jar target/elevator-v1.jar \<numPeople\> <movingTime> <numFloors> <eCapacity> <simNum>”
 
 Required arguments ->  
 numPeople: number of people to enter the building.  
