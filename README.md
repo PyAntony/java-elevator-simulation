@@ -201,12 +201,12 @@ Make sure you have Maven and JDK 11 installed. Steps:
 - “mvn clean package”
 - “java -jar target/elevator-v1.jar \<numPeople\> \<movingTime\> \<numFloors\> \<eCapacity\> \<simNum\>”
 
-Required arguments ->  
-numPeople: number of people to enter the building.  
-movingTime: time to wait for elevator to move between floors in seconds.  
-numFloors: number of floors in the building.  
-eCapacity: elevator loading capacity.  
-simNum: number of floors the elevator will travel.  
+Required arguments **->**  
+*numPeople*: number of people to enter the building.  
+*movingTime*: time to wait for elevator to move between floors in seconds.  
+*numFloors*: number of floors in the building.  
+*eCapacity*: elevator loading capacity.  
+*simNum*: number of floors the elevator will travel.  
 
 
 ## Output Example
